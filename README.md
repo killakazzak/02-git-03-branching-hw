@@ -159,7 +159,7 @@ Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 
 В результате получаем такую схему:
   
-![Первый мерж](img/02.png)
+![Первый мерж](https://github.com/netology-code/sysadm-homeworks/blob/devsys10/02-git-03-branching/img/02.png)
 
 #### Rebase
 
