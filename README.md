@@ -406,6 +406,12 @@ To github.com:andrey-borue/devops-netology.git
 Branch 'git-rebase' set up to track remote branch 'git-rebase' from 'origin'.
 ```
 
+```bash
+git push -u origin git-rebase -f
+```
+![image](https://github.com/user-attachments/assets/8318df69-c504-4399-9c24-015e97844624)
+
+
 **Шаг 9**. Теперь можно смержить ветку `git-rebase` в main без конфликтов и без дополнительного мерж-комита простой перемоткой: 
 
 ```
