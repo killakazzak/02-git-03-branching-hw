@@ -221,7 +221,8 @@ git push origin git-rebase
 
 #### Проверка
 
-![image](https://github.com/user-attachments/assets/55b4a94f-3eff-47d3-a18e-81020a65efc8)
+![image](https://github.com/user-attachments/assets/15ce6906-4b6b-41bf-ba35-dde440d1b240)
+
 
 #### Merge
 
