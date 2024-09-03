@@ -426,6 +426,17 @@ Fast-forward
  1 file changed, 1 insertion(+), 2 deletions(-)
 ```
 
+```bash
+git checkout main
+git merge git-rebase
+```
+
+![image](https://github.com/user-attachments/assets/1a3e68e5-6626-44ff-b34e-12f2540d61dd)
+
+
+### Проверка
+
+
 *В качестве результата работы по всем заданиям приложите ссылку на .md-файл в вашем репозитории.*
  
 ----
