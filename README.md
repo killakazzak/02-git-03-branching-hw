@@ -116,6 +116,12 @@ git push
 #### Изменим main  
 
 **Шаг 1.** Вернитесь в ветку `main`. 
+
+```bash
+git checkout main
+```
+![image](https://github.com/user-attachments/assets/df9faf83-cb75-487c-a34e-8f466db61fd0)
+
 **Шаг 2.** Предположим, что пока мы работали над веткой `git-merge`, кто-то изменил `main`. Для этого
 изменим содержимое файла `rebase.sh` на:
 
