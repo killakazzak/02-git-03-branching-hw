@@ -276,6 +276,14 @@ To abort and get back to the state before "git rebase", run "git rebase --abort"
 Could not apply dc4688f... git 2.3 rebase @ instead *
 ``` 
 
+```bash
+git switch git-rebase
+git rebase -i main
+```
+
+![image](https://github.com/user-attachments/assets/754a0563-aae9-46cd-a23f-1076318da3b9)
+
+
 Если посмотреть содержимое файла `rebase.sh`, то увидим метки, оставленные Git для решения конфликта:
 
 ```bash
