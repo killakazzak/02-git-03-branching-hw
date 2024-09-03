@@ -142,6 +142,14 @@ echo "====="
 
 **Шаг 3.** Отправляем изменённую ветку `main` в репозиторий.
 
+```bash
+git add branching/
+git commit -m "update rebase.sh"
+git push origin main
+```
+![image](https://github.com/user-attachments/assets/9d8c6507-4812-4abf-806a-29dd1b679e56)
+
+
 #### Подготовка файла rebase.sh  
 
 **Шаг 1.** Предположим, что теперь другой участник нашей команды не сделал `git pull` либо просто хотел ответвиться не от последнего коммита в `main`, а от коммита, когда мы только создали два файла
