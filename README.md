@@ -306,8 +306,19 @@ done
 ```bash
 echo "\$@ Parameter #$count = $param"
 ```
+```
+
+
 
 **Шаг 4.** Сообщим Git, что конфликт решён `git add rebase.sh` и продолжим rebase `git rebase --continue`.
+
+```bash
+git add branching/rebase.sh
+git rebase --continue
+```
+
+![image](https://github.com/user-attachments/assets/b6c71998-f28c-4dbe-9b41-bf5a5ff0e61e)
+
 
 **Шаг 5.** Опять получим конфликт в файле `rebase.sh` при попытке применения нашего второго коммита. Давайте разрешим конфликт, оставив строчку `echo "Next parameter: $param"`.
 
