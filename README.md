@@ -384,6 +384,12 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 Это произошло, потому что мы пытаемся перезаписать историю. 
 
+```bash
+git push -u origin git-rebase
+```
+![image](https://github.com/user-attachments/assets/e70cd765-b00b-4c91-af9f-9b5cd3d2d795)
+
+
 **Шаг 8.** Чтобы Git позволил нам это сделать, добавим флаг `force`:
 
 ```bash
