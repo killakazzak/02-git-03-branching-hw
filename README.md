@@ -241,9 +241,20 @@ Writing objects: 100% (1/1), 223 bytes | 223.00 KiB/s, done.
 Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
 ```  
 
+```bash
+git merge git-merge
+```
+![image](https://github.com/user-attachments/assets/36776b2c-6b49-418f-b7cc-0f8db7c45ba8)
+
 В результате получаем такую схему:
   
 ![Первый мерж](https://github.com/netology-code/sysadm-homeworks/blob/devsys10/02-git-03-branching/img/02.png)
+
+
+#### Проверка
+
+
+
 
 #### Rebase
 
