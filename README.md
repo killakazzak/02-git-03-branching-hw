@@ -156,7 +156,22 @@ git push origin main
 `merge.sh` и `rebase.sh` на первом шаге.  
 Для этого при помощи команды `git log` найдём хеш коммита `prepare for merge and rebase` и выполним `git checkout` на него так:
 `git checkout 8baf217e80ef17ff577883fda90f6487f67bbcea` (хеш будет другой).
-**Шаг 2.** Создадим ветку `git-rebase`, основываясь на текущем коммите. 
+
+```bash
+git log --oneline
+git checkout e447118
+```
+![image](https://github.com/user-attachments/assets/568773df-4551-472b-aa15-e5f3081eb862)
+
+
+**Шаг 2.** Создадим ветку `git-rebase`, основываясь на текущем коммите.
+
+```bash
+git switch -c git-rebase
+```
+
+![image](https://github.com/user-attachments/assets/86db6bc3-15cd-4793-ad67-88fbe1a478a7)
+ 
 **Шаг 3.** И изменим содержимое файла `rebase.sh` на следующее, тоже починив скрипт, но немного в другом стиле:
 
 ```bash
@@ -174,10 +189,23 @@ echo "====="
 
 **Шаг 4.** Отправим эти изменения в ветку `git-rebase` с комментарием `git-rebase 1`.
 
+```bash
+git add branching/
+git commit -m "git-rebase 1"
+git push origin git-rebase
+```
+![image](https://github.com/user-attachments/assets/ed7fb946-1d7d-4a52-9bc4-58c7648080c2)
+
+
 **Шаг 5.** И сделаем ещё один коммит `git-rebase 2` с пушем, заменив `echo "Parameter: $param"` на `echo "Next parameter: $param"`.
 
+```bash
+git add branching/
+git commit -m "git-rebase 2"
+git push origin git-rebase
+```
 
-![image](https://github.com/user-attachments/assets/55b4a94f-3eff-47d3-a18e-81020a65efc8)
+![image](https://github.com/user-attachments/assets/1bd21da1-1789-46a2-b16b-2464bf7c454a)
 
 
 #### Промежуточный итог  
@@ -190,6 +218,10 @@ echo "====="
 `https://github.com/ВАШ_ЛОГИН/ВАШ_РЕПОЗИТОРИЙ/network`, будет примерно такая схема:
   
 ![Созданы обе ветки](https://github.com/netology-code/sysadm-homeworks/blob/devsys10/02-git-03-branching/img/01.png)
+
+#### Проверка
+
+![image](https://github.com/user-attachments/assets/55b4a94f-3eff-47d3-a18e-81020a65efc8)
 
 #### Merge
 
