@@ -322,8 +322,25 @@ git rebase --continue
 
 **Шаг 5.** Опять получим конфликт в файле `rebase.sh` при попытке применения нашего второго коммита. Давайте разрешим конфликт, оставив строчку `echo "Next parameter: $param"`.
 
+```
+#!/bin/bash
+# display command line options
+
+count=1
+for param in "$@"; do
+    echo "Next parameter: $param"
+    count=$(( $count + 1 ))
+done
+
+echo "====="
+```
+
 **Шаг 6.** Далее опять сообщаем Git о том, что конфликт разрешён — `git add rebase.sh` — и продолжим rebase — `git rebase --continue`.
 
+```bash
+git add branching/rebase.sh
+git rebase --continue
+```
 В результате будет открыт текстовый редактор, предлагающий написать комментарий к новому объединённому коммиту:
 
 ```
