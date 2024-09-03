@@ -44,9 +44,21 @@ done
 
 **Шаг 2.** Создадим коммит с описанием `prepare for merge and rebase` и отправим его в ветку main. 
 
+```bash
+git add branching/
+git commit -m "prepare for merge and rebase"
+git push
+```
+![image](https://github.com/user-attachments/assets/592b3b5a-0e80-4a31-af48-9e1bc4eaaa20)
+
+
 #### Подготовка файла merge.sh 
  
 **Шаг 1.** Создайте ветку `git-merge`. 
+
+```bash
+git switch -c git-merge
+```
 
 **Шаг 2**. Замените в ней содержимое файла `merge.sh` на:
 
@@ -62,6 +74,16 @@ done
 ```
 
 **Шаг 3.** Создайте коммит `merge: @ instead *`, отправьте изменения в репозиторий.  
+
+```bash
+git add branching/
+git commit -m "merge: @ instead *"
+git push origin git-merge
+```
+
+![image](https://github.com/user-attachments/assets/3eaeb7a2-a689-46b6-8df5-49662d1c0bb5)
+
+
 **Шаг 4.** Разработчик подумал и решил внести ещё одно изменение в `merge.sh`:
  
 ```bash
@@ -79,6 +101,17 @@ done
 Теперь скрипт будет отображать каждый переданный ему параметр отдельно. 
 
 **Шаг 5.** Создайте коммит `merge: use shift` и отправьте изменения в репозиторий. 
+
+```bash
+git add branching/
+git commit -m "merge: use shift"
+git push
+```
+![image](https://github.com/user-attachments/assets/d15206de-29bd-4b7b-bb17-be551739218e)
+
+![image](https://github.com/user-attachments/assets/a60bad53-33fe-4a66-866c-c58cd0a56fab)
+
+
 
 #### Изменим main  
 
