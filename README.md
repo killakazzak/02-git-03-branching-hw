@@ -362,6 +362,11 @@ Merge branch 'git-merge'
 Successfully rebased and updated refs/heads/git-rebase
 ```
 
+### Проверка
+
+![image](https://github.com/user-attachments/assets/9351616b-34d1-476f-b960-9849988cb932)
+
+
 **Шаг 7.** И попробуем выполнить `git push` либо `git push -u origin git-rebase`, чтобы точно указать, что и куда мы хотим запушить. 
 
 Эта команда завершится с ошибкой:
