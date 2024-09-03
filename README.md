@@ -253,7 +253,7 @@ git merge git-merge
 
 #### Проверка
 
-
+![image](https://github.com/user-attachments/assets/92e8ef78-a9ce-45bb-ae58-6bda9004ac95)
 
 
 #### Rebase
