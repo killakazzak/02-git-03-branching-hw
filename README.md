@@ -433,8 +433,16 @@ git merge git-rebase
 
 ![image](https://github.com/user-attachments/assets/1a3e68e5-6626-44ff-b34e-12f2540d61dd)
 
+```bash
+git push
+```
+
+![image](https://github.com/user-attachments/assets/abc6f67e-296a-47ab-8422-f996a62b7fbd)
+
 
 ### Проверка
+
+![image](https://github.com/user-attachments/assets/905fb2c2-077a-4cd7-a660-05db1e378fd1)
 
 
 *В качестве результата работы по всем заданиям приложите ссылку на .md-файл в вашем репозитории.*
